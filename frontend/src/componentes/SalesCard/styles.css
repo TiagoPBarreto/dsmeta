@@ -49,34 +49,34 @@
 
 .dsmeta-sales-table tbody tr {
     height: 74px;
-    border-top: 1px solid #5f6e82;
+    border-top: 1px solid #5f6e82
 }
 
 .dsmeta-sales-table tbody tr:hover>td {
-    background-color: #384459;
+    background-color: #384459
 }
 
 .dsmeta-sales-table tbody tr:nth-child(odd) {
-    background-color: #242c3b;
+    background-color: #242c3b
 }
 
 .dsmeta-red-btn-container {
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 
 
 .show576 {
-    display: none;
+    display: none
 }
 
 .show992 {
-    display: none;
+    display: none
 }
 
 @media (min-width: 576px) {
     .show576 {
-        display: table-cell;
+        display: table-cell
     }
 
     .dsmeta-card {
@@ -94,6 +94,6 @@
 
 @media (min-width: 992px) {
     .show992 {
-        display: table-cell;
+        display: table-cell
     }
 }
